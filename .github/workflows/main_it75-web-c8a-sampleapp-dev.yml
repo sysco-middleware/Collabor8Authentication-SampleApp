@@ -38,7 +38,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: release.zip
-          path: ./release.zip
+          path: ./App
 
   deploy:
     runs-on: ubuntu-latest

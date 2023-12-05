@@ -87,8 +87,10 @@ function signOut() {
     // Choose which account to logout from by passing a username.
     const logoutRequest = {
         account: myMSALObj.getAccountByUsername(username),
-        mainWindowRedirectUri: 'http://localhost:3000/signout',
-        redirectUri: 'http://localhost:3000/redirect.html',
+        // mainWindowRedirectUri: 'http://localhost:3000/signout',
+        // redirectUri: 'http://localhost:3000/redirect.html',
+        mainWindowRedirectUri: 'https://collabo8.no',
+        redirectUri: 'https://collabo8.no',
     };
 
     myMSALObj.logoutPopup(logoutRequest);

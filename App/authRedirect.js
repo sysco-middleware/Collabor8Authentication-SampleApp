@@ -93,7 +93,7 @@ function signOut() {
     const logoutRequest = {
         account: myMSALObj.getAccountByUsername(username),
         // postLogoutRedirectUri: 'http://localhost:3000/signout', // Simply remove this line if you would like navigate to index page after logout.
-        postLogoutRedirectUri: 'https://collabor8.no', // Simply remove this line if you would like navigate to index page after logout.
+        postLogoutRedirectUri: 'https://collabor8.no/', // Simply remove this line if you would like navigate to index page after logout.
 
     };
 

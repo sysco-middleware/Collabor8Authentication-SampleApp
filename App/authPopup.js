@@ -89,8 +89,8 @@ function signOut() {
         account: myMSALObj.getAccountByUsername(username),
         // mainWindowRedirectUri: 'http://localhost:3000/signout',
         // redirectUri: 'http://localhost:3000/redirect.html',
-        mainWindowRedirectUri: 'https://collabo8.no',
-        redirectUri: 'https://collabo8.no',
+        mainWindowRedirectUri: 'https://collabor8.no',
+        redirectUri: 'https://collabor8.no',
     };
 
     myMSALObj.logoutPopup(logoutRequest);
